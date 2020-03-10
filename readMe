@@ -1,0 +1,26 @@
+
+Use PuTTY.
+Compile:     g++ InferenceEngine.cpp
+Ignore warnings
+RUN:         ./a.out 
+________________________________________
+How to run? (Sample Execution Below)
+________________________________________
+
+Do you have Mental Disorder?(YES or NO ): YES
+(prints the conclusion list) HIT enter
+(prints the variable list) HIT enter
+(prints the clause variable list) HIT enter untill you see the below question
+YOUR CONCLUSION MUST BE DISEASE IN ORDER TO TRACK, ENTER KEYWORD DISEASE: ? 
+Enter DISEASE in caps.
+ 
+DO you have sea saw mood swings? YES 
+Do you have extreme depression? YES
+Are you socially isolated? YES
+DISEASE = BIPOLAR DISORDER
+
+ENTER for forward chaining
+prints variable list, conclusion list and clause after ENTER until the treatment is found
+
+TREATMENT = Antipsychotic Medications and cognitive therapy. Hope you recover soon
+End of Intelligence's Result
